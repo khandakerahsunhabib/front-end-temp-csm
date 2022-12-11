@@ -48,23 +48,17 @@
 <div class="container">
 <h1 class="common-heading"></h1>
 <p></p>
-<p>##services##</p>
-<p></p>
 </div>
 </div>
 <!-- Right Side Image Attrractive pattern -->
 <div class="py-50">
 <div class="container">
-<div class="row align-items-center">
-<div class="col-lg-6">
 <h1></h1>
 <p></p>
 <ul class="check-square">
 
 </ul>
-</div>
-<div class="col-lg-6">
-<img src="/images/" alt="Image" />
+<p>##services##</p>
 </div>
 </div>
 </div>
