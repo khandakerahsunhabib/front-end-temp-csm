@@ -1,0 +1,221 @@
+<div class="common-sec faqSec">
+<div class="container">
+<h1 class="common-heading">Frequently Asked Questions About the Restoration Process</h1>
+<div class="accordion-box">
+<div id="accordionExample" class="accordion">
+<div class="card">
+<div id="faq-1" class="card-header">
+<h5 class="mb-0"><button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse1">question here</button></h5>
+</div>
+<div id="collapse1" class="collapse show" data-parent="#accordionExample">
+<div class="card-body">
+<p>Answer here</p>
+</div>
+</div>
+</div>
+
+<div class="card">
+<div id="faq-2" class="card-header">
+<h5 class="mb-0"><button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse2"> question here </button></h5>
+</div>
+<div id="collapse2" class="collapse" data-parent="#accordionExample">
+<div class="card-body">
+<p>Answer here</p>
+</div>
+</div>
+</div>
+
+<div class="card">
+<div id="faq-3" class="card-header">
+<h5 class="mb-0"><button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse3"> Question here </button></h5>
+</div>
+<div id="collapse3" class="collapse" data-parent="#accordionExample">
+<div class="card-body">
+<p>Answer here</p>
+</div>
+</div>
+</div>
+
+<div class="card">
+<div id="faq-4" class="card-header">
+<h5 class="mb-0"><button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse4"> Question </button></h5>
+</div>
+<div id="collapse4" class="collapse" data-parent="#accordionExample">
+<div class="card-body">
+<p>Answer</p>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+<!-- css -->
+div#accordionExample .card-body {
+    background:#032e5b;
+}
+div#accordionExample .btn{
+font-size: 2rem;
+}
+@media (max-width: 767px) {
+div#accordionExample .btn{
+font-size: 1.25rem;
+}}
+div#accordionExample .btn-link {
+  color: #fff;
+  
+}
+div#accordionExample .btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.img-box-float-lg-right,
+  .img-box-float-lg-left {
+      margin: 0 0 15px 0;
+      text-align: center;
+  }
+  
+  @media (min-width: 992px) {
+      .img-box-float-lg-right,
+      .img-box-float-lg-left {
+          max-width: 50%;
+      }
+      .img-box-float-lg-right {
+          float: right;
+          padding: 0 0 0 15px;
+      }
+      .img-box-float-lg-left {
+          float: left;
+          padding: 0 15px 0 0;
+      }
+  }
+  
+  @media (max-width: 991px) {
+      .img-box-float-lg-right,
+      .img-box-float-lg-left {
+          max-width: 100%;
+      }
+  }
+
+/*========== Accordion Style =========*/
+
+.accordion .collapse.show {
+  background: transparent;
+}
+
+.accordion .appointment-form {
+  position: relative;
+  z-index: 1;
+}
+
+.accordion .card {
+  border: none;
+  padding: 10px 11px;
+  background: var(--site-primary-color);
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding-left: 20px;
+  box-shadow: 0px 1px 48.96px 2.04px rgb(0 0 0 / 6%);
+}
+
+.accordion .card:last-child {
+  border-bottom: none !important;
+}
+
+.accordion .card:nth-last-child() {
+  border-bottom: none;
+}
+
+.accordion .card .card-header {
+  border-radius: 0;
+  border: none;
+  background-color: transparent;
+}
+
+.accordion .card .card-header:first-child {
+  border-radius: 0;
+}
+
+.accordion .card .btn-link.collapsed:hover {
+  text-decoration: none;
+}
+
+.accordion .card .card-body {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fff;
+  padding: 6px 0px;
+  padding-right: 40px;
+}
+
+.accordion .card .card-header {
+  padding: 0;
+}
+
+.accordion .card .btn-link {
+  color: #f9f9f9;
+  font-size: 20px;
+  width: 100%;
+  text-align: left;
+  padding: 9px 0;
+  white-space: normal;
+  transition: all 300ms linear 0s;
+  border: none;
+  text-decoration: none;
+  padding-right: 36px;
+  font-weight: 500;
+}
+
+.accordion .card .btn-link.collapsed {
+  color: #f6f6f6;
+}
+
+.accordion .card .btn-link:hover {
+  text-decoration: none;
+}
+
+.accordion h3 {
+  font-size: 24px;
+  color: #ef233c;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+}
+
+.accordion .appointment-inner {
+  padding: 65px 0;
+  box-shadow: 3.517px -8.285px 30px 0px rgba(12, 58, 132, 0.15);
+  background: #fff;
+  z-index: 11;
+  position: relative;
+}
+
+.accordion .card h5 .btn.collapsed::after {
+  content: "\f055";
+  transform: rotate(90deg);
+  transition: all 0.3s;
+}
+
+.accordion .card h5 .btn::after {
+  content: "\f056";
+  font-family: "fontawesome";
+  right: 12px;
+  position: absolute;
+  font-weight: 600;
+  top: 16px;
+  color: #fff;
+  width: 36px;
+  height: 36px;
+  text-align: center;
+  line-height: 36px;
+  border-radius: 50%;
+  transform: rotate(360deg);
+  transition: all 0.3s;
+  font-size: 32px;
+}
+
+.check-square>li::before {
+  color: var(--site-primary-color);
+}
