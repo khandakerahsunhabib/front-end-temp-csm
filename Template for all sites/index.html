@@ -6,31 +6,97 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 </head>
 
 <body>
-    <div class="header">
-        <ul class="menu-items">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Services</a>
-                <ul class="dropdown">
-                    <li><a href="#">Menu item-1</a></li>
-                    <li><a href="#">Menu item-2</a></li>
-                    <li><a href="#">Menu item-2</a></li>
-                    <li><a href="#">Menu item-4</a></li>
-                </ul>
-            </li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Contact Us</a>
-                <ul class="dropdown">
-                    <li><a href="#">Menu item-1</a></li>
-                    <li><a href="#">Menu item-2</a></li>
-                    <li><a href="#">Menu item-2</a></li>
-                    <li><a href="#">Menu item-4</a></li>
-                </ul>
-            </li>
-        </ul>
-    </div>
+    <section class="wt-section wt-section_bg_white wt-section_theme_light">
+        <div class="wt-container">
+            <h2 class="rs-h2 rs-h2_theme_light">FAQ</h2>
+            <div class="wt-accordion__container wt-offset-top-24" data-test="accordion">
+                <div class="wt-row wt-row_size_m">
+                    <div class="wt-col-6 wt-col-sm-12">
+                        <div class="wt-accordion-item wt-accordion-item_size_m wt-accordion-item_theme_light wt-accordion-item_closed"
+                            data-test="accordion-item">
+                            <div class="wt-accordion-item__trigger" type="button" role="button"
+                                id="react-collapsed-toggle-0" aria-controls="react-collapsed-panel-0"
+                                aria-expanded="false" tabindex="0">
+                                <div class="wt-accordion-item__icon"><svg viewBox="0 0 24 24"
+                                        class="_wt-icon_bxtje _m_aq1fd wt-accordion-item__svg">
+                                        <path
+                                            d="M21 12a9 9 0 1 1-9-9 9 9 0 0 1 9 9zm-4.235-3.351l-1.414-1.414L12 10.585 8.635 7.222 7.221 8.635 10.586 12l-3.257 3.257 1.414 1.414L12 13.414l3.288 3.289 1.415-1.415L13.414 12z">
+                                        </path>
+                                    </svg></div>
+                                <div class="wt-accordion-item__title">Is the trial free?</div>
+                            </div>
+                            <div class="wt-accordion-item__content-container" id="react-collapsed-panel-0"
+                                style="transition-duration: 500ms; transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94); transition-property: height; height: 0px; overflow: hidden; display: none;"
+                                aria-hidden="true">
+                                <div class="wt-accordion-item__content">Yes, the trial of IntelliJ IDEA is free. You
+                                    have
+                                    access to a fully featured product for 30 days.</div>
+                            </div>
+                        </div>
+                        <div class="wt-accordion-item wt-accordion-item_size_m wt-accordion-item_theme_light wt-accordion-item_closed"
+                            data-test="accordion-item">
+                            <div class="wt-accordion-item__trigger" type="button" role="button"
+                                id="react-collapsed-toggle-1" aria-controls="react-collapsed-panel-1"
+                                aria-expanded="false" tabindex="0">
+                                <div class="wt-accordion-item__icon"><svg viewBox="0 0 24 24"
+                                        class="_wt-icon_bxtje _m_aq1fd wt-accordion-item__svg">
+                                        <path
+                                            d="M21 12a9 9 0 1 1-9-9 9 9 0 0 1 9 9zm-4.235-3.351l-1.414-1.414L12 10.585 8.635 7.222 7.221 8.635 10.586 12l-3.257 3.257 1.414 1.414L12 13.414l3.288 3.289 1.415-1.415L13.414 12z">
+                                        </path>
+                                    </svg></div>
+                                <div class="wt-accordion-item__title">I want to try out JetBrains products in my
+                                    company,
+                                    but I cannot use the internet from our corporate network (a secure environment is
+                                    used,
+                                    products are evaluated offline, etc.). How can I do this?</div>
+                            </div>
+                            <div class="wt-accordion-item__content-container" id="react-collapsed-panel-1"
+                                style="transition-duration: 500ms; transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94); transition-property: height; height: 0px; overflow: hidden; display: none;"
+                                aria-hidden="true">
+                                <div class="wt-accordion-item__content">Please contact our support: <a
+                                        href="mailto:idea-support@jetbrains.com"
+                                        class="rs-link rs-link_hardness_average rs-link_mode_classic rs-link_theme_light">idea-support@jetbrains.com</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wt-col-6 wt-col-sm-12">
+                        <div class="wt-accordion-item wt-accordion-item_size_m wt-accordion-item_theme_light wt-accordion-item_closed"
+                            data-test="accordion-item">
+                            <div class="wt-accordion-item__trigger" type="button" role="button"
+                                id="react-collapsed-toggle-2" aria-controls="react-collapsed-panel-2"
+                                aria-expanded="false" tabindex="0">
+                                <div class="wt-accordion-item__icon"><svg viewBox="0 0 24 24"
+                                        class="_wt-icon_bxtje _m_aq1fd wt-accordion-item__svg">
+                                        <path
+                                            d="M21 12a9 9 0 1 1-9-9 9 9 0 0 1 9 9zm-4.235-3.351l-1.414-1.414L12 10.585 8.635 7.222 7.221 8.635 10.586 12l-3.257 3.257 1.414 1.414L12 13.414l3.288 3.289 1.415-1.415L13.414 12z">
+                                        </path>
+                                    </svg></div>
+                                <div class="wt-accordion-item__title">How can I make my trial more effective?</div>
+                            </div>
+                            <div class="wt-accordion-item__content-container" id="react-collapsed-panel-2"
+                                style="transition-duration: 500ms; transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94); transition-property: height; height: 0px; overflow: hidden; display: none;"
+                                aria-hidden="true">
+                                <div class="wt-accordion-item__content">Please subscribe to the educational emails,
+                                    which
+                                    will help you get the most out of the trial. You can subscribe right inside the
+                                    product
+                                    on the first install and startup. In these emails we share product tips, from basic
+                                    advice for a quick start to more advanced topics. You can unsubscribe from them at
+                                    any
+                                    time.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>

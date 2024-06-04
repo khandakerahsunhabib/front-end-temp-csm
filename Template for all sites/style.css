@@ -1,39 +1,80 @@
-*{
-    padding: 0;
-    margin: 0;
+.wt-section {
+    box-sizing: border-box;
+    padding-top: 1px;
+    padding-bottom: 96px;
+    padding-bottom: calc(4*var(--wt-offset-top-unit, 24px));
+    background-color: #fff;
+    background-color: var(--wt-color-white, #fff)
 }
 
-ul{
-    list-style: none;
-    background-color: darkblue;
+.wt-section_bg_gray-light {
+    background-color: #f4f4f4;
+    background-color: var(--wt-color-grey-light, #f4f4f4)
 }
 
-ul li {
-    display: inline-block;
-    position: relative;
+.wt-section_bg_dark {
+    background-color: #27282c;
+    background-color: var(--wt-color-dark, #27282c)
 }
 
-ul li a {
-    display: block;
-    padding: 20px 25px;
-    color: #fff;
-    text-decoration: none;
-    text-align:  center;
+.wt-section_bg_gray-dark {
+    background-color: #323236;
+    background-color: var(--wt-color-grey-dark, #323236)
 }
 
-ul li ul.dropdown{
+.wt-hr {
     width: 100%;
-    background: #22438c;
-    position: absolute;
-    z-index: 999;
-    display: none;
+    height: 1px;
+    border: 0;
+    background-color: rgba(39, 40, 44, .2);
+    background-color: var(--wt-color-dark-20, rgba(39, 40, 44, .2))
 }
 
-ul li a:hover {
-    background-color: #112c66;
+.wt-hr_theme_dark {
+    background-color: hsla(0, 0%, 100%, .2);
+    background-color: var(--wt-color-white-20, hsla(0, 0%, 100%, .2))
 }
 
-ul li:hover ul.dropdown{
-    display: block;
-    align-items: stretch;
+.wt-container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    padding-left: 22px;
+    padding-right: 22px;
+    max-width: 1276px
+}
+
+@media screen and (max-width: 1276px) {
+    .wt-container {
+        padding-left: 22px;
+        padding-right: 22px;
+        max-width: 996px
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .wt-container {
+        padding-left: 22px;
+        padding-right: 22px;
+        max-width: 100%
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .wt-container {
+        padding-left: 16px;
+        padding-right: 16px;
+        max-width: 100%
+    }
+}
+
+.wt-resizable-container {
+    width: 100%;
+    max-width: unset;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    padding-left: 10%;
+    padding-right: 10%
 }
