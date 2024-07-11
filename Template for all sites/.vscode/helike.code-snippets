@@ -1,0 +1,194 @@
+{
+  "Common-sec": {
+    "prefix": "common-sec",
+    "body": [
+      "<div class=\"${1|common-sec,common-block,section-bg,py-5,padding-top-bottom,area-padding,area-padding-60,bg-custom-wall-paint,bg-custom-so-white|}\">",
+      "\t<div class=\"container\">",
+      "\t</div>",
+      "</div>"
+    ]
+  },
+  "Picture Tag": {
+    "prefix": "picture",
+    "body": [
+      "<picture>",
+      "\t<source media=\"(max-width:575px)\" srcset=\"/images/\">",
+      "\t<source media=\"(max-width:991px)\" srcset=\"/images/\">",
+      "\t<img src=\"/images/\" alt=\"img\" width=\"570\" height=\"350\">",
+      "</picture>"
+    ],
+    "description": "Inserts a picture tag with responsive image sources"
+  },
+  "custom-rel-attribute": {
+    "prefix": "rel",
+    "body": ["rel=\"nofollow\""],
+    "description": "Inserts a rel attribute with a default value"
+  },
+  "img-right-gx": {
+    "prefix": "img-right-gx",
+    "body": [
+      "<div class=\"common-sec\">",
+      "\t<div class=\"container\">",
+      "\t\t<div class=\"row align-items-center\">",
+      "\t\t\t<div class=\"col-lg-6 order-lg-last\">",
+      "\t\t\t\t<div class=\"img-box\">",
+      "\t\t\t\t\t<picture>",
+      "\t\t\t\t\t\t<source media=\"(max-width:575px)\" srcset=\"/images/\">",
+      "\t\t\t\t\t\t<source media=\"(max-width:991px)\" srcset=\"/images/\">",
+      "\t\t\t\t\t\t<img src=\"/images/\" alt=\"img\" width=\"570\" height=\"350\">",
+      "\t\t\t\t\t</picture>",
+      "\t\t\t\t</div>",
+      "\t\t\t</div>",
+      "\t\t\t<div class=\"col-lg-6\">",
+      "\t\t\t\t<h1>$1</h1>",
+      "\t\t\t</div>",
+      "\t\t</div>",
+      "\t</div>",
+      "</div>"
+    ],
+    "description": "Inserts a section with image on the right and content on the left"
+  },
+  "img-left-gx": {
+    "prefix": "img-left-gx",
+    "body": [
+      "<div class=\"common-sec\">",
+      "\t<div class=\"container\">",
+      "\t\t<div class=\"row align-items-center\">",
+      "\t\t\t<div class=\"col-lg-6\">",
+      "\t\t\t\t<div class=\"img-box\">",
+      "\t\t\t\t\t<picture>",
+      "\t\t\t\t\t\t<source media=\"(max-width:575px)\" srcset=\"/images/\">",
+      "\t\t\t\t\t\t<source media=\"(max-width:991px)\" srcset=\"/images/\">",
+      "\t\t\t\t\t\t<img src=\"/images/\" alt=\"img\" width=\"570\" height=\"350\">",
+      "\t\t\t\t\t</picture>",
+      "\t\t\t\t</div>",
+      "\t\t\t</div>",
+      "\t\t\t<div class=\"col-lg-6\">",
+      "\t\t\t\t<h1>$1</h1>",
+      "\t\t\t</div>",
+      "\t\t</div>",
+      "\t</div>",
+      "</div>"
+    ],
+    "description": "Inserts a section with image on the right and content on the left"
+  },
+  "img-right-reg": {
+    "prefix": "img-right-reg",
+    "body": [
+      "<div class=\"${1|common-sec,common-block,section-bg,py-5,padding-top-bottom,area-padding,area-padding-60,bg-custom-wall-paint,bg-custom-so-white|}\">",
+      "    <div class=\"container\">",
+      "        <div class=\"row align-items-center\">",
+      "            <div class=\"col-lg-6 order-lg-last\">",
+      "                <div class=\"img-box\">",
+      "                    <img src=\"/images/\" alt=\"img\" width=\"690\" height=\"400\">",
+      "                </div>",
+      "            </div>",
+      "            <div class=\"col-lg-6\">",
+      "                <h2>$1</h2>",
+      "                <p>$2</p>",
+      "            </div>",
+      "        </div>",
+      "    </div>",
+      "</div>"
+    ],
+    "description": "Insert HTML structure with image on the right and text on the left"
+  },
+  "img-left-reg": {
+    "prefix": "img-left-reg",
+    "body": [
+      "<div class=\"${1|common-sec,common-block,section-bg,py-5,padding-top-bottom,area-padding,area-padding-60,bg-custom-wall-paint,bg-custom-so-white|}\">",
+      "    <div class=\"container\">",
+      "        <div class=\"row align-items-center\">",
+      "            <div class=\"col-lg-6\">",
+      "                <div class=\"img-box\">",
+      "                    <img src=\"/images/\" alt=\"img\" width=\"690\" height=\"400\">",
+      "                </div>",
+      "            </div>",
+      "            <div class=\"col-lg-6\">",
+      "                <h2>$1</h2>",
+      "                <p>$2</p>",
+      "            </div>",
+      "        </div>",
+      "    </div>",
+      "</div>"
+    ],
+    "description": "Insert HTML structure with image on the left and text on the left"
+  },
+  "Two Box Section": {
+    "prefix": "two-box",
+    "body": [
+      "<div class=\"common-sec\">",
+      "\t<div class=\"container\">",
+      "\t\t<div class=\"row\">",
+      "\t\t\t<div class=\"col-lg-6 mb-5 mb-lg-0\">",
+      "\t\t\t\t<div class=\"common-box common-box--bg p-5\">",
+      "\t\t\t\t\t$1",
+      "\t\t\t\t</div>",
+      "\t\t\t</div>",
+      "\t\t\t<div class=\"col-lg-6\">",
+      "\t\t\t\t<div class=\"common-box common-box--bg p-5\">",
+      "\t\t\t\t\t$2",
+      "\t\t\t\t</div>",
+      "\t\t\t</div>",
+      "\t\t</div>",
+      "\t</div>",
+      "</div>"
+    ],
+    "description": "Inserts a section with two side-by-side boxes"
+  },
+  "Heading classes": {
+    "prefix": ["hc", "heading-class"],
+    "body": "class=\"${1|common-heading,section-heading,heading-one,heading-two,heading-three, heading-four,mega-title,large-heading,medium-heading,small-heading,page-heading,area-heading-two,area-heading-three|}\"",
+    "description": "Insert class='class-heading'"
+  },
+  "Section Classes": {
+    "prefix": ["sc", "section-classes"],
+    "body": "class=\"${1|common-sec,common-block,section-bg,py-5,padding-top-bottom,area-padding,area-padding-60,bg-custom-wall-paint,bg-custom-so-white|}\"",
+    "description": "Insert class='section-classes'"
+  },
+  "Check Square Class": {
+    "prefix": "cs",
+    "body": ["class=\"check-square\""],
+    "description": "Insert class='check-square'"
+  },
+  "List Class": {
+    "prefix": ["list-class", "lc"],
+    "body": ["class=\"${1|right-arrow,check-square,angle-right,check-mark|}\""],
+    "description": "Insert a class with selectable values"
+  },
+  "Lazyload Class": {
+    "prefix": "Lazy",
+    "body": ["class=\"lazyload\" src=\"#\""],
+    "description": "Lazyload class"
+  },
+  "Joint Button": {
+    "prefix": "joint-button",
+    "body": [
+      "<a href=\"/about-us/contact-us\" class=\"$1\" rel=\"nofollow\">Contact Us</a>",
+      "<a href=\"tel:##phone##\" class=\"$1\" rel=\"nofollow\">##phone##</a>"
+    ],
+    "description": "Insert HTML structure for two joint buttons: Contact Us and Phone"
+  },
+  "Float Right GX": {
+    "prefix": "float-right-gx",
+    "body": [
+      "<div class=\"img-box float-lg-right\">",
+      "    <picture>",
+      "        <source media=\"(max-width:575px)\" srcset=\"/images/\">",
+      "        <source media=\"(max-width:991px)\" srcset=\"/images/\">",
+      "        <img src=\"/images/\" alt=\"img\" width=\"570\" height=\"350\">",
+      "    </picture>",
+      "</div>"
+    ],
+    "description": "Insert HTML structure for a floated image box with responsive picture element"
+  },
+  "Float Right Regular": {
+    "prefix": "float-right-reg",
+    "body": [
+      "<div class=\"img-box float-lg-right\">",
+      "    <img src=\"/images/\" alt=\"img\" width=\"570\" height=\"350\">",
+      "</div>"
+    ],
+    "description": "Insert HTML structure for a floated image box"
+  }
+}
