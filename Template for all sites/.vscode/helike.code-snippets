@@ -169,6 +169,20 @@
     ],
     "description": "Insert HTML structure for two joint buttons: Contact Us and Phone"
   },
+  "Single Button call": {
+    "prefix": "sbc",
+    "body": [
+      "<a href=\"tel:##phone##\" class=\"$1\" rel=\"nofollow\">Call Us Now</a>"
+    ],
+    "description": "Insert HTML structure for two joint buttons: Contact Us and Phone"
+  },
+  "Single Button contact": {
+    "prefix": "sbe",
+    "body": [
+      "<a href=\"/about-us/contact-us\" class=\"$1\" rel=\"nofollow\">Contact Us</a>"
+    ],
+    "description": "Insert HTML structure for two joint buttons: Contact Us and Phone"
+  },
   "Float Right GX": {
     "prefix": "float-right-gx",
     "body": [
